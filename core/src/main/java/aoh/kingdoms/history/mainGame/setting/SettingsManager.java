@@ -1,0 +1,116 @@
+// 
+// Decompiled by Procyon v0.6.0
+// 
+
+package aoc.kingdoms.lukasz.jakowski.setting;
+
+public class SettingsManager
+{
+    public String LANGUAGE_TAG;
+    public int UI_SCALE;
+    public int FONT_MAIN_SIZE;
+    public int FONT_ARMY_SIZE;
+    public float VOLUME_MASTER;
+    public float VOLUME_MUSIC;
+    public float VOLUME_SOUNDS;
+    public float VOLUME_AMBIENCE;
+    public float VOLUME_HOVER;
+    public float PROVINCE_ALPHA;
+    public float PROVINCE_ALPHA_WASTELAND;
+    public float PROVINCE_OCCUPIED_ALPHA_EXTRA;
+    public float OCCUPIED_PROVINCE_ALPHA;
+    public int MAP_SELECT_ARMY_BUTTON;
+    public int MAP_MOVE;
+    public boolean ENABLE_EDGE_SCROLL;
+    public boolean ENABLE_DOUBLE_CLICK_TO_RESET_MAP_SCALE;
+    public float CITIES_FONT_SCALE;
+    public float CITIES_CAPITAL_FONT_SCALE;
+    public float PERCENTAGE_OF_CITIES_ON_MAP;
+    public boolean DRAW_CIVILIZATIONS_NAMES_OVER_PROVINCES_IN_GAME;
+    public int CIVILIZATIONS_NAMES_INTERVAL;
+    public float CIV_NAMES_MIN_SCALE_OF_FONT;
+    public float CIV_NAMES_TEXT_ALPHA;
+    public float PROVINCE_NAMES_ALPHA;
+    public int FONT_BORDER_SIZE;
+    public int FONT_BORDER_WIDTH_OF_BORDER;
+    public int AUTO_SAVE_DAYS;
+    public float civNamesFontColor_R;
+    public float civNamesFontColor_G;
+    public float civNamesFontColor_B;
+    public float civNamesFontColor_A;
+    public float civNamesFontColorBorder_R;
+    public float civNamesFontColorBorder_G;
+    public float civNamesFontColorBorder_B;
+    public float civNamesFontColorBorder_A;
+    public boolean loadCursor;
+    public int SETTINGS_PROVINCE_BORDER;
+    public boolean DOUBLE_BORDER;
+    public float BORDER_EXTRA_WIDTH;
+    public boolean CLOUDS;
+    public int SETTINGS_PROVINCE_FLAGS;
+    public boolean FBO_PROVINCE_NAMES;
+    public boolean FBO_PROVINCES;
+    public int SETTINGS_PROVINCE_NAMES;
+    public float PROVINCE_NAMES_SCALE;
+    public boolean SETTINGS_CITIES;
+    public int SETTINGS_CIV_NAMES;
+    public boolean COUNCIL_TIPS;
+    public int SHIPS_ON_MAP;
+    public boolean enableHideSideMenu;
+    public int IN_GAME_LEFT_PADDING_EXTRA;
+    
+    public SettingsManager() {
+        this.LANGUAGE_TAG = null;
+        this.UI_SCALE = -1;
+        this.FONT_MAIN_SIZE = -1;
+        this.FONT_ARMY_SIZE = -1;
+        this.VOLUME_MASTER = 1.0f;
+        this.VOLUME_MUSIC = 0.45f;
+        this.VOLUME_SOUNDS = 0.5f;
+        this.VOLUME_AMBIENCE = 0.45f;
+        this.VOLUME_HOVER = 0.3f;
+        this.PROVINCE_ALPHA = 0.3137255f;
+        this.PROVINCE_ALPHA_WASTELAND = 0.3f;
+        this.PROVINCE_OCCUPIED_ALPHA_EXTRA = 0.25f;
+        this.OCCUPIED_PROVINCE_ALPHA = 0.5f;
+        this.MAP_SELECT_ARMY_BUTTON = 2;
+        this.MAP_MOVE = 0;
+        this.ENABLE_EDGE_SCROLL = false;
+        this.ENABLE_DOUBLE_CLICK_TO_RESET_MAP_SCALE = false;
+        this.CITIES_FONT_SCALE = 1.0f;
+        this.CITIES_CAPITAL_FONT_SCALE = 1.0f;
+        this.PERCENTAGE_OF_CITIES_ON_MAP = 0.12f;
+        this.DRAW_CIVILIZATIONS_NAMES_OVER_PROVINCES_IN_GAME = true;
+        this.CIVILIZATIONS_NAMES_INTERVAL = 350;
+        this.CIV_NAMES_MIN_SCALE_OF_FONT = 0.035f;
+        this.CIV_NAMES_TEXT_ALPHA = 0.5f;
+        this.PROVINCE_NAMES_ALPHA = 0.45f;
+        this.FONT_BORDER_SIZE = 128;
+        this.FONT_BORDER_WIDTH_OF_BORDER = 0;
+        this.AUTO_SAVE_DAYS = 3650;
+        this.civNamesFontColor_R = 0.04f;
+        this.civNamesFontColor_G = 0.04f;
+        this.civNamesFontColor_B = 0.04f;
+        this.civNamesFontColor_A = 1.0f;
+        this.civNamesFontColorBorder_R = 0.58f;
+        this.civNamesFontColorBorder_G = 0.58f;
+        this.civNamesFontColorBorder_B = 0.58f;
+        this.civNamesFontColorBorder_A = 0.4f;
+        this.loadCursor = true;
+        this.SETTINGS_PROVINCE_BORDER = 4;
+        this.DOUBLE_BORDER = true;
+        this.BORDER_EXTRA_WIDTH = 0.0f;
+        this.CLOUDS = true;
+        this.SETTINGS_PROVINCE_FLAGS = 2;
+        this.FBO_PROVINCE_NAMES = false;
+        this.FBO_PROVINCES = false;
+        this.SETTINGS_PROVINCE_NAMES = 2;
+        this.PROVINCE_NAMES_SCALE = 0.06f;
+        this.SETTINGS_CITIES = true;
+        this.SETTINGS_CIV_NAMES = 2;
+        this.COUNCIL_TIPS = true;
+        this.SHIPS_ON_MAP = 35;
+        this.enableHideSideMenu = false;
+        this.IN_GAME_LEFT_PADDING_EXTRA = 0;
+    }
+}
